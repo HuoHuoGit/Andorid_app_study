@@ -15,6 +15,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
+        //add some comment for test VCS
         TextView textView = findViewById(R.id.textView2);
         textView.setText(message);
     }
